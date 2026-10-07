@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171313" />
+    <meta name="description" content="Cabelos afro para você expressar sua beleza do seu jeito. Conheça a Janys Hair." />
+    <title>Janys Hair | Beleza que nasce da raiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Janys Hair, página inicial">
+        <span class="brand-mark" aria-hidden="true">J</span>
+        <span>janys<span class="brand-accent">hair</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-navigation" id="main-navigation" aria-label="Navegação principal">
+        <a class="nav-link active" href="index.html">Início</a>
+        <a class="nav-link" href="cabelos.html">Cabelos</a>
+        <a class="nav-link" href="sobre.html">Sobre nós</a>
+        <a class="nav-link cart-link" href="carrinho.html">Carrinho <span class="cart-count" aria-label="0 itens no carrinho">0</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Beleza que nasce da raiz</p>
+          <h1>Seu cabelo.<br />Sua coroa<span class="text-red">.</span></h1>
+          <p class="hero-description">Texturas que celebram quem você é. Encontre o cabelo afro ideal para expressar sua beleza do seu jeito.</p>
+          <a class="button button-light" href="#colecao">Encontre sua textura <span aria-hidden="true">↘</span></a>
+          <div class="hero-note"><span class="note-star" aria-hidden="true">✳</span><span>Feito para celebrar<br />a sua beleza natural</span></div>
+        </div>
+        <div class="hero-image-wrap">
+          <img class="hero-image" src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="Mulher negra com cabelo cacheado, celebrando sua beleza natural" />
+          <div class="hero-image-label"><span>TEXTURAS REAIS</span><span class="label-line"></span><span>BELEZA SEM REGRAS</span></div>
+          <span class="hero-stamp" aria-hidden="true">BELEZA<br />DE RAIZ <span>✳</span></span>
+        </div>
+        <div class="hero-side-note" aria-hidden="true">AUTENTICIDADE EM CADA FIO</div>
+      </section>
+
+      <section class="benefits" aria-label="Vantagens">
+        <div><span class="benefit-icon" aria-hidden="true">✳</span><span>Texturas que celebram você</span></div>
+        <div><span class="benefit-icon" aria-hidden="true">♡</span><span>Escolhas feitas com carinho</span></div>
+        <div><span class="benefit-icon" aria-hidden="true">✦</span><span>Beleza com identidade</span></div>
+      </section>
+
+      <section class="collection section-wrap" id="colecao">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> Escolhido para você</p>
+            <h2>O cabelo da semana<span class="text-red">.</span></h2>
+          </div>
+          <p class="section-intro">Uma textura especial para renovar o visual e deixar a sua personalidade brilhar.</p>
+        </div>
+
+        <article class="product-feature">
+          <div class="product-photo">
+            <img class="product-image" data-product-name="Agata" src="img/agata.jpg" alt="Cabelo Agata da Black Beauty, com cachos definidos" />
+            <span class="photo-tag">DESTAQUE DA SEMANA</span>
+          </div>
+          <div class="product-info">
+            <p class="product-category">CACHOS • CROCHET BRAIDS</p>
+            <h3>Agata</h3>
+            <p class="product-description">O cabelo Agata da Black Beauty tem cachos fechados e definidos. Sua fibra é orgânica, o que proporciona volume. Com 60cm de comprimento, é perfeito para ser utilizado no método crochet braids. Cada pacote contém 300g de cabelo.</p>
+            <div class="product-specs">
+              <p class="specs-heading">ESPECIFICAÇÕES</p>
+              <div class="specs-grid">
+                <span>Marca <strong>Black Beauty</strong></span>
+                <span>Tamanho <strong>60cm</strong></span>
+                <span>Material <strong>Orgânico</strong></span>
+                <span>Aplicação <strong>Crochet braids</strong></span>
+                <span>Peso <strong>300g</strong></span>
+              </div>
+            </div>
+            <div class="product-purchase">
+              <div><span class="price-label">PREÇO</span><strong class="product-price">Consulte</strong></div>
+              <button class="button button-red add-to-cart" type="button" data-product="agata">Adicionar ao carrinho <span aria-hidden="true">↗</span></button>
+            </div>
+          </div>
+        </article>
+        <a class="text-link collection-link" href="cabelos.html">Ver todos os cabelos <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section class="manifesto">
+        <div class="manifesto-mark" aria-hidden="true">✳</div>
+        <p>O seu cabelo conta histórias.<br /><span>Vista a sua com orgulho.</span></p>
+        <a href="sobre.html" class="text-link">Conheça a Janys Hair <span aria-hidden="true">→</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">J</span><span>janys<span class="brand-accent">hair</span></span></a>
+      <p>Beleza de raiz, do seu jeito.</p>
+      <span class="footer-copy">© 2026 Janys Hair</span>
+    </footer>
+  </body>
+</html>
